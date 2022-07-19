@@ -3,12 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { nanoid } from 'nanoid';
 
-const DATA = [
-  {text: 'Eat', completed: true},
-  {text: 'Sleep', completed: false},
-  {text: 'Blah', completed: false},
-]
+const DATA = []
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
